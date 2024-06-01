@@ -1,0 +1,2 @@
+/usr/bin/ar qc libled_ctrl.a CMakeFiles/led_ctrl.dir/led.c.o
+/usr/bin/ranlib libled_ctrl.a
