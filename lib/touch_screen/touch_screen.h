@@ -14,6 +14,7 @@
 #define X_TOUCH_TO_LCD 800/1024
 #define Y_TOUCH_TO_LCD 480/600
 
+
 struct tscreen_status {
     bool pressed;
     int x;
