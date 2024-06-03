@@ -3,7 +3,7 @@
 int main () {
     //Open devices
     struct lcd_device* lcd0 = newScreen(LCD0); //lcd screen
-    struct tscreen* ts0 = newTScreen(TS0); // touch screen
+    struct tscreen* ts0 = TScreen_new(TS0); // touch screen
     struct led_device* led0 = newLed(LED0); // led light
 
     //clear screen and initiate bulb icons

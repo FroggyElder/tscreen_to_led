@@ -29,7 +29,7 @@ struct tscreen {
 };
 
 //Create a new touch screen struct
-struct tscreen* newTScreen (char* path);
+struct tscreen* TScreen_new (char* path);
 //Abandon the screen
 static bool destoryScreen (struct tscreen* touch_screen);
 //Wait for a behavior and put it in the screen struct

@@ -1,6 +1,6 @@
 #include "touch_screen.h"
 
-struct tscreen* newTScreen (char* path) {
+struct tscreen* TScreen_new (char* path) {
     //make space
     struct tscreen* new_screen = (struct tscreen*)malloc(sizeof(struct tscreen));
     if (new_screen==NULL) {
