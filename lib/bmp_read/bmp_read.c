@@ -1,7 +1,7 @@
 #include "bmp_read.h"
 
 unsigned int* bmpToArgb(char* path, int* width, int* height) {
-    //open it
+    //open the bmp file
     FILE* bmp_file = fopen(path,"r");
     if(bmp_file==NULL){
         perror("invalid file path");
