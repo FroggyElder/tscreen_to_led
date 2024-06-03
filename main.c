@@ -18,6 +18,7 @@ int main () {
     for(int i=0;i<led0->count;i++)
         led0->coutrol(led0,i,LED_OFF);
 
+    //loop wait for tap/slide, and react accordingly
     while (1) {
         ts0->update(ts0);
         if(ts0->status->pressed==true) {
