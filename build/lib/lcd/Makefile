@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led"
+CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/lcd//CMakeFiles/progress.marks"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/lcd//CMakeFiles/progress.marks"
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/clean
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/preinstall
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/preinstall
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/lcd/CMakeFiles/lcd.dir/rule:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/CMakeFiles/lcd.dir/rule
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/CMakeFiles/lcd.dir/rule
 .PHONY : lib/lcd/CMakeFiles/lcd.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ lcd: lib/lcd/CMakeFiles/lcd.dir/rule
 
 # fast build rule for target.
 lcd/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/build
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/build
 .PHONY : lcd/fast
 
 lcd.o: lcd.c.o
@@ -135,7 +135,7 @@ lcd.o: lcd.c.o
 
 # target to build an object file
 lcd.c.o:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.o
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.o
 .PHONY : lcd.c.o
 
 lcd.i: lcd.c.i
@@ -143,7 +143,7 @@ lcd.i: lcd.c.i
 
 # target to preprocess a source file
 lcd.c.i:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.i
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.i
 .PHONY : lcd.c.i
 
 lcd.s: lcd.c.s
@@ -151,7 +151,7 @@ lcd.s: lcd.c.s
 
 # target to generate assembly for a file
 lcd.c.s:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.s
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/lcd.c.s
 .PHONY : lcd.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

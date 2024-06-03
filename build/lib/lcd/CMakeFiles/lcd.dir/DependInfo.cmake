@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/lib/lcd/lcd.c" "lib/lcd/CMakeFiles/lcd.dir/lcd.c.o" "gcc" "lib/lcd/CMakeFiles/lcd.dir/lcd.c.o.d"
+  "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/lcd/lcd.c" "lib/lcd/CMakeFiles/lcd.dir/lcd.c.o" "gcc" "lib/lcd/CMakeFiles/lcd.dir/lcd.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

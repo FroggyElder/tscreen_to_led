@@ -1,7 +1,7 @@
 lib/led/CMakeFiles/led_ctrl.dir/led.c.o: \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/led/led.c \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/led/led.c \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/led/led.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/led/led.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/types.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \

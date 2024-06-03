@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led
+# Install script for directory: /mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/led/cmake_install.cmake")
+  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/lcd/cmake_install.cmake")
+  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/lcd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/touch_screen/cmake_install.cmake")
+  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read/cmake_install.cmake")
+  include("/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

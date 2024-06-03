@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led"
+CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
 
 # Include any dependencies generated for this target.
 include lib/bmp_read/CMakeFiles/bmp_read.dir/depend.make
@@ -70,18 +70,18 @@ include lib/bmp_read/CMakeFiles/bmp_read.dir/progress.make
 include lib/bmp_read/CMakeFiles/bmp_read.dir/flags.make
 
 lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o: lib/bmp_read/CMakeFiles/bmp_read.dir/flags.make
-lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o: /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read/bmp_read.c
+lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o: /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c
 lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o: lib/bmp_read/CMakeFiles/bmp_read.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o -MF CMakeFiles/bmp_read.dir/bmp_read.c.o.d -o CMakeFiles/bmp_read.dir/bmp_read.c.o -c "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read/bmp_read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o"
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o -MF CMakeFiles/bmp_read.dir/bmp_read.c.o.d -o CMakeFiles/bmp_read.dir/bmp_read.c.o -c "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c"
 
 lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bmp_read.dir/bmp_read.c.i"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read/bmp_read.c" > CMakeFiles/bmp_read.dir/bmp_read.c.i
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c" > CMakeFiles/bmp_read.dir/bmp_read.c.i
 
 lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bmp_read.dir/bmp_read.c.s"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read/bmp_read.c" -o CMakeFiles/bmp_read.dir/bmp_read.c.s
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c" -o CMakeFiles/bmp_read.dir/bmp_read.c.s
 
 # Object files for target bmp_read
 bmp_read_OBJECTS = \
@@ -93,19 +93,19 @@ bmp_read_EXTERNAL_OBJECTS =
 lib/bmp_read/libbmp_read.a: lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o
 lib/bmp_read/libbmp_read.a: lib/bmp_read/CMakeFiles/bmp_read.dir/build.make
 lib/bmp_read/libbmp_read.a: lib/bmp_read/CMakeFiles/bmp_read.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libbmp_read.a"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -P CMakeFiles/bmp_read.dir/cmake_clean_target.cmake
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bmp_read.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libbmp_read.a"
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -P CMakeFiles/bmp_read.dir/cmake_clean_target.cmake
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bmp_read.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/bmp_read/CMakeFiles/bmp_read.dir/build: lib/bmp_read/libbmp_read.a
 .PHONY : lib/bmp_read/CMakeFiles/bmp_read.dir/build
 
 lib/bmp_read/CMakeFiles/bmp_read.dir/clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -P CMakeFiles/bmp_read.dir/cmake_clean.cmake
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" && $(CMAKE_COMMAND) -P CMakeFiles/bmp_read.dir/cmake_clean.cmake
 .PHONY : lib/bmp_read/CMakeFiles/bmp_read.dir/clean
 
 lib/bmp_read/CMakeFiles/bmp_read.dir/depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/bmp_read/CMakeFiles/bmp_read.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/bmp_read" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/bmp_read/CMakeFiles/bmp_read.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : lib/bmp_read/CMakeFiles/bmp_read.dir/depend
 

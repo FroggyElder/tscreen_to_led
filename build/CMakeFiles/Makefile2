@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led"
+CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -155,14 +155,14 @@ CMakeFiles/tscreen_to_led.dir/all: lib/touch_screen/CMakeFiles/touch_screen.dir/
 CMakeFiles/tscreen_to_led.dir/all: lib/bmp_read/CMakeFiles/bmp_read.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tscreen_to_led.dir/build.make CMakeFiles/tscreen_to_led.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tscreen_to_led.dir/build.make CMakeFiles/tscreen_to_led.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=9,10 "Built target tscreen_to_led"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=9,10 "Built target tscreen_to_led"
 .PHONY : CMakeFiles/tscreen_to_led.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tscreen_to_led.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tscreen_to_led.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : CMakeFiles/tscreen_to_led.dir/rule
 
 # Convenience name for target.
@@ -181,14 +181,14 @@ CMakeFiles/tscreen_to_led.dir/clean:
 lib/led/CMakeFiles/led_ctrl.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=5,6 "Built target led_ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=5,6 "Built target led_ctrl"
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 lib/led/CMakeFiles/led_ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/CMakeFiles/led_ctrl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/rule
 
 # Convenience name for target.
@@ -207,14 +207,14 @@ lib/led/CMakeFiles/led_ctrl.dir/clean:
 lib/lcd/CMakeFiles/lcd.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/lcd/CMakeFiles/lcd.dir/build.make lib/lcd/CMakeFiles/lcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=3,4 "Built target lcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=3,4 "Built target lcd"
 .PHONY : lib/lcd/CMakeFiles/lcd.dir/all
 
 # Build rule for subdir invocation for target.
 lib/lcd/CMakeFiles/lcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/lcd/CMakeFiles/lcd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : lib/lcd/CMakeFiles/lcd.dir/rule
 
 # Convenience name for target.
@@ -233,14 +233,14 @@ lib/lcd/CMakeFiles/lcd.dir/clean:
 lib/touch_screen/CMakeFiles/touch_screen.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=7,8 "Built target touch_screen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=7,8 "Built target touch_screen"
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/all
 
 # Build rule for subdir invocation for target.
 lib/touch_screen/CMakeFiles/touch_screen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/CMakeFiles/touch_screen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/rule
 
 # Convenience name for target.
@@ -259,14 +259,14 @@ lib/touch_screen/CMakeFiles/touch_screen.dir/clean:
 lib/bmp_read/CMakeFiles/bmp_read.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/bmp_read/CMakeFiles/bmp_read.dir/build.make lib/bmp_read/CMakeFiles/bmp_read.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/bmp_read/CMakeFiles/bmp_read.dir/build.make lib/bmp_read/CMakeFiles/bmp_read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" --progress-num=1,2 "Built target bmp_read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=1,2 "Built target bmp_read"
 .PHONY : lib/bmp_read/CMakeFiles/bmp_read.dir/all
 
 # Build rule for subdir invocation for target.
 lib/bmp_read/CMakeFiles/bmp_read.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/bmp_read/CMakeFiles/bmp_read.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : lib/bmp_read/CMakeFiles/bmp_read.dir/rule
 
 # Convenience name for target.

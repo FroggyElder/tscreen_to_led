@@ -1,8 +1,8 @@
 CMakeFiles/tscreen_to_led.dir/main.c.o: \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/main.c \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/main.c \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/main.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/lcd/lcd.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/main.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/lcd/lcd.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdio.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
@@ -70,8 +70,8 @@ CMakeFiles/tscreen_to_led.dir/main.c.o: \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/asm/posix_types.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/linux/i2c.h \
  /usr/local/arm/5.4.0/usr/lib/gcc/arm-none-linux-gnueabi/5.4.0/include/stdbool.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/led/led.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/touch_screen/touch_screen.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/led/led.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/linux/input.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/time.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/bmp_read/bmp_read.h
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.h

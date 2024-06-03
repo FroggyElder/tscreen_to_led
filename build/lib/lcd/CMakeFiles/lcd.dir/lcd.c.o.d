@@ -1,7 +1,7 @@
 lib/lcd/CMakeFiles/lcd.dir/lcd.c.o: \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/lcd/lcd.c \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/lcd/lcd.c \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/date/5.30/3-tscreen_to_led/lib/lcd/lcd.h \
+ /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/lcd/lcd.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdio.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \

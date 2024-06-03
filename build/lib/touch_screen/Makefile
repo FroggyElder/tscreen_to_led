@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led"
+CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/lib/touch_screen//CMakeFiles/progress.marks"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build/CMakeFiles" 0
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen//CMakeFiles/progress.marks"
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/clean
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/preinstall
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/preinstall
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/touch_screen/CMakeFiles/touch_screen.dir/rule:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/CMakeFiles/touch_screen.dir/rule
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/touch_screen/CMakeFiles/touch_screen.dir/rule
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ touch_screen: lib/touch_screen/CMakeFiles/touch_screen.dir/rule
 
 # fast build rule for target.
 touch_screen/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/build
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/build
 .PHONY : touch_screen/fast
 
 touch_screen.o: touch_screen.c.o
@@ -135,7 +135,7 @@ touch_screen.o: touch_screen.c.o
 
 # target to build an object file
 touch_screen.c.o:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o
 .PHONY : touch_screen.c.o
 
 touch_screen.i: touch_screen.c.i
@@ -143,7 +143,7 @@ touch_screen.i: touch_screen.c.i
 
 # target to preprocess a source file
 touch_screen.c.i:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.i
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.i
 .PHONY : touch_screen.c.i
 
 touch_screen.s: touch_screen.c.s
@@ -151,7 +151,7 @@ touch_screen.s: touch_screen.c.s
 
 # target to generate assembly for a file
 touch_screen.c.s:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.s
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/touch_screen/CMakeFiles/touch_screen.dir/build.make lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.s
 .PHONY : touch_screen.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/date/5.30/3-tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
