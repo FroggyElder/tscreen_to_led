@@ -40,7 +40,7 @@ static int updateStatus (struct tscreen* touch_screen) {
     }
     if (touch_screen->status==NULL) {
         perror("Screen info corrupted, destorying");
-        destoryScreen (touch_screen);
+        TScreen_destory (touch_screen);
         goto init_error;
     }
 
