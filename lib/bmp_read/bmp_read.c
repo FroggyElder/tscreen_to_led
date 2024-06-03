@@ -15,7 +15,7 @@ unsigned int* bmpToArgb(char* path, int* width, int* height) {
         goto general_error;
     }
 
-    //put data into width and height pointer, is said pointer exists
+    //put data into width and height pointer, if said pointer exists
     if(width!=NULL) *width = bmp_head.biWidth;
     if(height!=NULL) *height = bmp_head.biHeight;
 
