@@ -35,4 +35,4 @@ static bool TScreen_destory (struct tscreen* touch_screen);
 //Wait for a behavior and put it in the screen struct
 static int updateStatus (struct tscreen* touch_screen);
 
-#endif //_TOUCH_SCREEN__H_
+#endif //_TOUCH_SCREEN_H_
