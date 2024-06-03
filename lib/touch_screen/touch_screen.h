@@ -14,7 +14,6 @@
 #define X_TOUCH_TO_LCD 800/1024
 #define Y_TOUCH_TO_LCD 480/600
 
-
 struct tscreen_status {
     bool pressed;
     int x;
@@ -32,7 +31,7 @@ struct tscreen {
 //Create a new touch screen struct
 struct tscreen* TScreen_new (char* path);
 //Abandon the screen
-static bool destoryScreen (struct tscreen* touch_screen);
+static bool TScreen_destory (struct tscreen* touch_screen);
 //Wait for a behavior and put it in the screen struct
 static int updateStatus (struct tscreen* touch_screen);
 

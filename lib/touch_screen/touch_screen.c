@@ -16,13 +16,13 @@ struct tscreen* TScreen_new (char* path) {
     new_screen->fd = open(path,O_RDONLY);
 
     //allocate functions
-    new_screen->remove = destoryScreen;
+    new_screen->remove = TScreen_destory;
     new_screen->update = updateStatus;
 
     return new_screen;
 }
 
-static bool destoryScreen (struct tscreen* touch_screen) {
+static bool TScreen_destory (struct tscreen* touch_screen) {
     if (touch_screen==NULL) return false;
 
     close(touch_screen->fd);
