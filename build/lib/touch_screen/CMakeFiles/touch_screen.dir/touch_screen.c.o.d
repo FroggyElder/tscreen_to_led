@@ -1,7 +1,7 @@
 lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o: \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c \
+ /home/cy/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.h \
+ /home/cy/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdio.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \

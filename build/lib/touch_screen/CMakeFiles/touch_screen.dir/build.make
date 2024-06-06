@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
+CMAKE_SOURCE_DIR = "/home/cy/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/home/cy/C Workspace/tscreen_to_led/build"
 
 # Include any dependencies generated for this target.
 include lib/touch_screen/CMakeFiles/touch_screen.dir/depend.make
@@ -70,18 +70,18 @@ include lib/touch_screen/CMakeFiles/touch_screen.dir/progress.make
 include lib/touch_screen/CMakeFiles/touch_screen.dir/flags.make
 
 lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o: lib/touch_screen/CMakeFiles/touch_screen.dir/flags.make
-lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o: /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c
+lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o: /home/cy/C\ Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c
 lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o: lib/touch_screen/CMakeFiles/touch_screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o -MF CMakeFiles/touch_screen.dir/touch_screen.c.o.d -o CMakeFiles/touch_screen.dir/touch_screen.c.o -c "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o"
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o -MF CMakeFiles/touch_screen.dir/touch_screen.c.o.d -o CMakeFiles/touch_screen.dir/touch_screen.c.o -c "/home/cy/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c"
 
 lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/touch_screen.dir/touch_screen.c.i"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c" > CMakeFiles/touch_screen.dir/touch_screen.c.i
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/cy/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c" > CMakeFiles/touch_screen.dir/touch_screen.c.i
 
 lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/touch_screen.dir/touch_screen.c.s"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c" -o CMakeFiles/touch_screen.dir/touch_screen.c.s
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/cy/C Workspace/tscreen_to_led/lib/touch_screen/touch_screen.c" -o CMakeFiles/touch_screen.dir/touch_screen.c.s
 
 # Object files for target touch_screen
 touch_screen_OBJECTS = \
@@ -93,19 +93,19 @@ touch_screen_EXTERNAL_OBJECTS =
 lib/touch_screen/libtouch_screen.a: lib/touch_screen/CMakeFiles/touch_screen.dir/touch_screen.c.o
 lib/touch_screen/libtouch_screen.a: lib/touch_screen/CMakeFiles/touch_screen.dir/build.make
 lib/touch_screen/libtouch_screen.a: lib/touch_screen/CMakeFiles/touch_screen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtouch_screen.a"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -P CMakeFiles/touch_screen.dir/cmake_clean_target.cmake
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/touch_screen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtouch_screen.a"
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -P CMakeFiles/touch_screen.dir/cmake_clean_target.cmake
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/touch_screen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/touch_screen/CMakeFiles/touch_screen.dir/build: lib/touch_screen/libtouch_screen.a
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/build
 
 lib/touch_screen/CMakeFiles/touch_screen.dir/clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -P CMakeFiles/touch_screen.dir/cmake_clean.cmake
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" && $(CMAKE_COMMAND) -P CMakeFiles/touch_screen.dir/cmake_clean.cmake
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/clean
 
 lib/touch_screen/CMakeFiles/touch_screen.dir/depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/touch_screen" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/touch_screen/CMakeFiles/touch_screen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/cy/C Workspace/tscreen_to_led" "/home/cy/C Workspace/tscreen_to_led/lib/touch_screen" "/home/cy/C Workspace/tscreen_to_led/build" "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen" "/home/cy/C Workspace/tscreen_to_led/build/lib/touch_screen/CMakeFiles/touch_screen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : lib/touch_screen/CMakeFiles/touch_screen.dir/depend
 

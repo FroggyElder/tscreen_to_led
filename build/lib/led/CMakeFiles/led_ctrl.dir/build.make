@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
+CMAKE_SOURCE_DIR = "/home/cy/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/home/cy/C Workspace/tscreen_to_led/build"
 
 # Include any dependencies generated for this target.
 include lib/led/CMakeFiles/led_ctrl.dir/depend.make
@@ -70,18 +70,18 @@ include lib/led/CMakeFiles/led_ctrl.dir/progress.make
 include lib/led/CMakeFiles/led_ctrl.dir/flags.make
 
 lib/led/CMakeFiles/led_ctrl.dir/led.c.o: lib/led/CMakeFiles/led_ctrl.dir/flags.make
-lib/led/CMakeFiles/led_ctrl.dir/led.c.o: /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/led/led.c
+lib/led/CMakeFiles/led_ctrl.dir/led.c.o: /home/cy/C\ Workspace/tscreen_to_led/lib/led/led.c
 lib/led/CMakeFiles/led_ctrl.dir/led.c.o: lib/led/CMakeFiles/led_ctrl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/led/CMakeFiles/led_ctrl.dir/led.c.o"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/led/CMakeFiles/led_ctrl.dir/led.c.o -MF CMakeFiles/led_ctrl.dir/led.c.o.d -o CMakeFiles/led_ctrl.dir/led.c.o -c "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/led/led.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/led/CMakeFiles/led_ctrl.dir/led.c.o"
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/led/CMakeFiles/led_ctrl.dir/led.c.o -MF CMakeFiles/led_ctrl.dir/led.c.o.d -o CMakeFiles/led_ctrl.dir/led.c.o -c "/home/cy/C Workspace/tscreen_to_led/lib/led/led.c"
 
 lib/led/CMakeFiles/led_ctrl.dir/led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/led_ctrl.dir/led.c.i"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/led/led.c" > CMakeFiles/led_ctrl.dir/led.c.i
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/cy/C Workspace/tscreen_to_led/lib/led/led.c" > CMakeFiles/led_ctrl.dir/led.c.i
 
 lib/led/CMakeFiles/led_ctrl.dir/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_ctrl.dir/led.c.s"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/led/led.c" -o CMakeFiles/led_ctrl.dir/led.c.s
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/cy/C Workspace/tscreen_to_led/lib/led/led.c" -o CMakeFiles/led_ctrl.dir/led.c.s
 
 # Object files for target led_ctrl
 led_ctrl_OBJECTS = \
@@ -93,19 +93,19 @@ led_ctrl_EXTERNAL_OBJECTS =
 lib/led/libled_ctrl.a: lib/led/CMakeFiles/led_ctrl.dir/led.c.o
 lib/led/libled_ctrl.a: lib/led/CMakeFiles/led_ctrl.dir/build.make
 lib/led/libled_ctrl.a: lib/led/CMakeFiles/led_ctrl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libled_ctrl.a"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -P CMakeFiles/led_ctrl.dir/cmake_clean_target.cmake
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/led_ctrl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libled_ctrl.a"
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -P CMakeFiles/led_ctrl.dir/cmake_clean_target.cmake
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/led_ctrl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/led/CMakeFiles/led_ctrl.dir/build: lib/led/libled_ctrl.a
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/build
 
 lib/led/CMakeFiles/led_ctrl.dir/clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -P CMakeFiles/led_ctrl.dir/cmake_clean.cmake
+	cd "/home/cy/C Workspace/tscreen_to_led/build/lib/led" && $(CMAKE_COMMAND) -P CMakeFiles/led_ctrl.dir/cmake_clean.cmake
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/clean
 
 lib/led/CMakeFiles/led_ctrl.dir/depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led/CMakeFiles/led_ctrl.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/cy/C Workspace/tscreen_to_led" "/home/cy/C Workspace/tscreen_to_led/lib/led" "/home/cy/C Workspace/tscreen_to_led/build" "/home/cy/C Workspace/tscreen_to_led/build/lib/led" "/home/cy/C Workspace/tscreen_to_led/build/lib/led/CMakeFiles/led_ctrl.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/touch_screen
+# Install script for directory: /home/cy/C Workspace/tscreen_to_led/lib/touch_screen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

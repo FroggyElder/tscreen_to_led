@@ -1,7 +1,7 @@
 lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o: \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c \
+ /home/cy/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdc-predef.h \
- /mnt/e/Virtual\ Machines/Ubuntu\ 64-bit/shared/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.h \
+ /home/cy/C\ Workspace/tscreen_to_led/lib/bmp_read/bmp_read.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/stdio.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/features.h \
  /usr/local/arm/5.4.0/usr/arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \

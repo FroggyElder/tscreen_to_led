@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led"
+CMAKE_SOURCE_DIR = "/home/cy/C Workspace/tscreen_to_led"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build"
+CMAKE_BINARY_DIR = "/home/cy/C Workspace/tscreen_to_led/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/lib/led//CMakeFiles/progress.marks"
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build/CMakeFiles" 0
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" "/home/cy/C Workspace/tscreen_to_led/build/lib/led//CMakeFiles/progress.marks"
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cy/C Workspace/tscreen_to_led/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/clean
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/preinstall
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/preinstall
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/led/CMakeFiles/led_ctrl.dir/rule:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/CMakeFiles/led_ctrl.dir/rule
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/led/CMakeFiles/led_ctrl.dir/rule
 .PHONY : lib/led/CMakeFiles/led_ctrl.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ led_ctrl: lib/led/CMakeFiles/led_ctrl.dir/rule
 
 # fast build rule for target.
 led_ctrl/fast:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/build
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/build
 .PHONY : led_ctrl/fast
 
 led.o: led.c.o
@@ -135,7 +135,7 @@ led.o: led.c.o
 
 # target to build an object file
 led.c.o:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.o
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.o
 .PHONY : led.c.o
 
 led.i: led.c.i
@@ -143,7 +143,7 @@ led.i: led.c.i
 
 # target to preprocess a source file
 led.c.i:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.i
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.i
 .PHONY : led.c.i
 
 led.s: led.c.s
@@ -151,7 +151,7 @@ led.s: led.c.s
 
 # target to generate assembly for a file
 led.c.s:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.s
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(MAKE) $(MAKESILENT) -f lib/led/CMakeFiles/led_ctrl.dir/build.make lib/led/CMakeFiles/led_ctrl.dir/led.c.s
 .PHONY : led.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/cy/C Workspace/tscreen_to_led/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

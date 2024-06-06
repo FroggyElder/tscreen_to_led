@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/e/Virtual Machines/Ubuntu 64-bit/shared/C Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c" "lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o" "gcc" "lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o.d"
+  "/home/cy/C Workspace/tscreen_to_led/lib/bmp_read/bmp_read.c" "lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o" "gcc" "lib/bmp_read/CMakeFiles/bmp_read.dir/bmp_read.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
