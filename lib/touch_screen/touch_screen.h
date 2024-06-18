@@ -14,6 +14,10 @@
 #define X_TOUCH_TO_LCD 800/1024
 #define Y_TOUCH_TO_LCD 480/600
 
+enum TS_ACTIONS {
+    TS_TAP,TS_UP,TS_DOWN,TS_LEFT,TS_RIGHT
+};
+
 struct tscreen_status {
     bool pressed;
     int x;
@@ -26,6 +30,7 @@ struct tscreen {
 
     bool (* remove) (struct tscreen* touch_screen);
     int (* update) (struct tscreen* touch_screen);
+    int (* getAction) (struct tscreen* touch_screen);
 };
 
 //Create a new touch screen struct
@@ -34,5 +39,7 @@ struct tscreen* TScreen_new (char* path);
 static bool TScreen_destory (struct tscreen* touch_screen);
 //Wait for a behavior and put it in the screen struct
 static int updateStatus (struct tscreen* touch_screen);
+//Get a simple actions
+static int getAction (struct tscreen* touch_screen);
 
-#endif //_TOUCH_SCREEN_H_
+#endif /*_TOUCH_SCREEN_H_*/

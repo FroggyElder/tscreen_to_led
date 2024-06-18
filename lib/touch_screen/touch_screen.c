@@ -18,6 +18,7 @@ struct tscreen* TScreen_new (char* path) {
     //allocate functions
     new_screen->remove = TScreen_destory;
     new_screen->update = updateStatus;
+    new_screen->getAction = getAction;
 
     return new_screen;
 }
@@ -72,4 +73,29 @@ static int updateStatus (struct tscreen* touch_screen) {
 general_error:
 init_error:
     return -1;
+}
+
+static int getAction (struct tscreen* touch_screen) {
+
+    while (!touch_screen->status->pressed) 
+    {
+        touch_screen->update(touch_screen);
+    }
+    int x0 = touch_screen->status->x;
+    int y0 = touch_screen->status->y;
+
+    while (touch_screen->status->pressed) 
+    {
+        touch_screen->update(touch_screen);
+    }
+    int x1 = touch_screen->status->x;
+    int y1 = touch_screen->status->y;
+
+    if (x0==x1&&y0==y1) return TS_TAP;
+
+    int x_drift = x1>x0 ? x1-x0 : x0 - x1;
+    int y_drift = y1>y0 ? y1-y0 : y0 - y1;
+
+    if (x_drift>y_drift) return x1>x0 ? TS_RIGHT : TS_LEFT;
+    else return y1<y0 ? TS_UP : TS_DOWN;
 }
