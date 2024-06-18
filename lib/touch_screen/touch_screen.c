@@ -58,7 +58,7 @@ static int updateStatus (struct tscreen* touch_screen) {
             if (input_struct.value>0) touch_screen->status->pressed = true;
             break;
         }
-
+    
         if(input_struct.type==EV_ABS) {
             if (input_struct.code==ABS_X) touch_screen->status->x = input_struct.value*X_TOUCH_TO_LCD;
             if (input_struct.code==ABS_Y) touch_screen->status->y = input_struct.value*Y_TOUCH_TO_LCD;
