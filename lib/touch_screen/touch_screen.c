@@ -97,5 +97,5 @@ static int getAction (struct tscreen* touch_screen) {
     int y_drift = y1>y0 ? y1-y0 : y0 - y1;
 
     if (x_drift>y_drift) return x1>x0 ? TS_RIGHT : TS_LEFT;
-    else return y1<y0 ? TS_UP : TS_DOWN;
+    else return y1>y0 ? TS_DOWN : TS_UP;
 }
