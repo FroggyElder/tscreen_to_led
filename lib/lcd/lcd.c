@@ -72,7 +72,7 @@ static bool paintMap (struct lcd_device* screen,void* map,int width,int height,i
 
     //now paint it
     for (int i=0;i<height;i++)
-        memcpy(screen->ptr+screen->pixel_size*(screen->w*i+x0),map+width*(height-i)*screen->pixel_size,width*screen->pixel_size);
+        memcpy(screen->ptr+screen->pixel_size*(screen->w*i+x0),map+width*i*screen->pixel_size,width*screen->pixel_size);
 
     //if all is good
     return true;
